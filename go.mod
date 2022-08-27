@@ -5,13 +5,13 @@ go 1.18
 require (
 	github.com/bqqsrc/errer v0.0.1
 	github.com/bqqsrc/loger v0.0.1 
-	github.com/bqqsrc/dber v0.0.0
-	github.com/bqqsrc/imaper v0.0.0
+	github.com/bqqsrc/dber v0.0.1
+	github.com/bqqsrc/imaper v0.0.1
 )
 
 replace (
 //	github.com/bqqsrc/errer v0.0.1 => ../errer
 	//github.com/bqqsrc/loger v0.0.1  => ../loger
-	github.com/bqqsrc/dber v0.0.0 => ../dber
-	github.com/bqqsrc/imaper v0.0.0 => ../imaper
+	//github.com/bqqsrc/dber v0.0.1 => ../dber
+	//github.com/bqqsrc/imaper v0.0.1 => ../imaper
 )
