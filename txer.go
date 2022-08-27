@@ -1,4 +1,4 @@
-package databaser
+package sqler
 
 import (
 	"github.com/bqqsrc/dber"

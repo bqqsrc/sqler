@@ -1,4 +1,4 @@
-package databaser
+package sqler
 
 import "strings"
 

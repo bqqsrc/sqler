@@ -1,4 +1,4 @@
-package databaser
+package sqler
 
 type SqlAndArgs interface {
 	ToSqlAndArgs() (string, []interface{})

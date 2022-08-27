@@ -1,4 +1,4 @@
-package databaser
+package sqler
 
 import (
 	"github.com/bqqsrc/imaper"
@@ -70,7 +70,7 @@ func (k *Keyer) ToSqlAndArgs() (string, []interface{}) {
 			build.WriteString(sqlStr)
 			keyArgs = append(keyArgs, args...)
 		} else {
-			if keyStr, ok := maper.I2String(k.expression); ok {
+			if keyStr, ok := imaper.I2String(k.expression); ok {
 				build.WriteString(keyStr)
 			}
 		}
